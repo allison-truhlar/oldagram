@@ -1,0 +1,86 @@
+/* Layout - sections */
+
+html, body, header, section, p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background: lightgrey;
+}
+
+.container{
+    width:375px;
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 0 1px 10px black;
+    margin: 10px auto;
+    background: white;
+}
+
+header,
+.post-author{
+    display: flex;
+    align-items: center; 
+}
+
+header{
+    justify-content: space-between;
+}
+
+.post-author{
+    padding: 10px 0;
+    border-top: 1px #C6C6C6 solid;
+}
+
+.post-description{
+    margin: 0 0 15px 10px;
+}
+
+/* Layout - images */
+
+.logo,
+.avatar{
+    height: 35px;
+    padding: 15px;
+}
+
+.avatar{
+    border-radius: 50%;
+}
+
+.post-author .avatar{
+    padding: 10px;
+}
+
+.post{
+    width:375px;
+    margin-bottom: 15px;
+}
+
+.icon{
+    height: 25px;
+    margin: 0 0 10px 10px;
+}
+
+.icon:hover,
+.icon:focus{
+    opacity: 0.5;
+}
+
+
+/* Typography */
+
+.accent-text{
+    font-weight:900;
+}
+
+.post-author .accent-text{
+    display:block;
+}
+
+.location{
+    font-size: 15px;
+}
